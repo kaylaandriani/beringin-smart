@@ -1,11 +1,11 @@
-/* Kayla Edition - Custom Styling */
+/* Kayla Azzahra Edition - Sunset Terracotta */
 .header-hero {
   background: linear-gradient(135deg, #431407 0%, #7c2d12 50%, #9a3412 100%);
   padding: 24px 20px;
   color: white;
   border-bottom-left-radius: 28px;
   border-bottom-right-radius: 28px;
-  box-shadow: 0 4px 20px -2px rgba(194, 65, 12, 0.08);
+  box-shadow: 0 10px 25px -5px rgba(124, 45, 18, 0.3);
   margin-bottom: 20px;
 }
 
@@ -16,37 +16,53 @@
   margin-bottom: 16px;
 }
 
+.school-brand-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.school-header-logo {
+  width: 46px;
+  height: 46px;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 5px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  border: 2px solid #fdba74;
+  object-fit: contain;
+}
+
 .welcome-badge {
   display: inline-block;
-  padding: 6px 14px;
-  background: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 20px;
-  font-size: 0.8rem;
-  letter-spacing: 0.5px;
-  color: #ffffff;
-  margin-bottom: 8px;
+  padding: 5px 14px;
+  background: rgba(253, 186, 116, 0.18);
+  border: 1px solid rgba(253, 186, 116, 0.35);
+  border-radius: 9999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #fed7aa;
+  margin-bottom: 6px;
 }
 
 .hero-title {
   font-size: 1.6rem;
   font-weight: 800;
   margin: 0;
-  letter-spacing: -0.5px;
   color: #ffffff;
 }
 
 .hero-subtitle {
   font-size: 0.9rem;
-  opacity: 0.9;
+  opacity: 0.92;
   margin-top: 4px;
-  color: #e2e8f0;
+  color: #fed7aa;
 }
 
 .logout-btn {
   --color: #ffffff;
   --background: rgba(255, 255, 255, 0.15);
-  --border-radius: 12px;
+  --border-radius: 9999px;
   backdrop-filter: blur(8px);
 }
 
@@ -61,24 +77,24 @@
   display: none;
 }
 
-.report-card {
+.ticket-card-hover {
   margin: 0 16px 16px 16px;
   border-radius: 20px;
-  box-shadow: 0 4px 20px -2px rgba(194, 65, 12, 0.08);
-  border: 1px solid rgba(254, 215, 170, 0.9);
+  box-shadow: 0 4px 18px -2px rgba(194, 65, 12, 0.08);
+  border: 1.5px solid #fed7aa;
   background: #ffffff;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.report-card:hover {
+.ticket-card-hover:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px -4px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 25px -4px rgba(194, 65, 12, 0.18);
 }
 
 .status-badge {
-  padding: 4px 10px;
-  border-radius: 12px;
-  font-size: 0.75rem;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -87,7 +103,7 @@
   color: #b45309;
 }
 .status-diproses {
-  background: rgba(194, 65, 12, 0.15);
+  background: #ffedd5;
   color: #9a3412;
 }
 .status-selesai {
@@ -96,10 +112,11 @@
 }
 
 .category-tag {
-  background: rgba(194, 65, 12, 0.08);
+  background: #fff7ed;
   color: #c2410c;
-  padding: 3px 8px;
-  border-radius: 8px;
-  font-size: 0.75rem;
-  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  border: 1px solid #fed7aa;
 }

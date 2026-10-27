@@ -1,100 +1,95 @@
-# Beringin Smart — Portal Pengaduan Sarana & Prasarana Sekolah
-> **Edisi Khusus: Kayla Azzahra (XI PPLG 1)**  
-> **SMK Negeri 1 Beringin • Tahun Ajaran 2026/2027**  
-> Standar Kompetensi Kerja Nasional Indonesia (SKKNI) No. 282 Tahun 2016  
-> Tema Identitas Antarmuka: **Sunset Copper & Warm Desert Tangerine**
+# Beringin Smart 🏫 • Kayla Azzahra Edition
+
+<div align="center">
+  <img src="Beringin-Smart/public/logo-smkn1beringin.png" alt="Logo SMKN 1 Beringin" width="130" style="margin-bottom: 12px;"/>
+  <h2>Sistem Informasi & Manajemen Pengaduan Sarana Prasarana Sekolah</h2>
+  <p><strong>SMK Negeri 1 Beringin Deli Serdang</strong></p>
+  <p><em>Tema Desain: Sunset Terracotta & Warm Sand (Contemporary Warm Pill Styling)</em></p>
+</div>
 
 ---
 
-## 📌 Deskripsi Proyek
-**Beringin Smart (Kayla Edition)** adalah aplikasi layanan pelaporan kerusakan sarana dan prasarana lingkungan sekolah berbasis Mobile & Web responsif di SMK Negeri 1 Beringin. Aplikasi ini dirancang untuk mempermudah siswa melaporkan kendala fasilitas secara real-time dan transparan ke tim sarpras sekolah.
+## 📌 Identitas Proyek & Pengembang
 
-Arsitektur Teknologi:
-- **Backend**: Laravel 11 RESTful API + Autentikasi Sanctum
-- **Frontend**: React 18 + Ionic Framework v8 + TypeScript + Vite Bundler
-- **Database**: MySQL 8.4 (Port 3306)
-- **Tema Visual**: Nuansa elegan **Sunset Copper & Warm Desert Tangerine**
-
----
-
-## 👥 Hak Akses & Kredensial Uji Coba
-
-| Peran (Role) | Nama Pengguna | Alamat Email | Kata Sandi |
-|---|---|---|---|
-| **Siswa Utama** | Kayla Azzahra | `kayla@beringin.sch.id` | `password123` |
-| **Petugas Sarpras** | Staf Pemeliharaan Sarpras | `petugas@beringin.sch.id` | `password123` |
-| **Siswa Pendukung** | Siswa SMKN 1 Beringin | `siswa@beringin.sch.id` | `password123` |
+| Atribut | Informasi Terdaftar |
+| :--- | :--- |
+| **Nama Siswa** | **Kayla Azzahra** |
+| **Kelas & Jurusan** | **XI Pengembangan Perangkat Lunak & Gim 1 (XI PPLG 1)** |
+| **Sekolah** | SMK Negeri 1 Beringin, Deli Serdang |
+| **Petugas / Teknisi** | Pak Danang *(Teknisi Sarana & Prasarana)* |
+| **Database Aktif** | MySQL: `beringin_smart_kayla` |
+| **Teknologi Backend** | Laravel 11 Framework, REST API, Sanctum Authentication |
+| **Teknologi Frontend** | Ionic 8 React, Vite, TypeScript, Terracotta Warm Design System |
 
 ---
 
-## 📸 Dokumentasi & Bukti Pengujian Antarmuka (11 Screenshot)
+## 🎨 Karakteristik & Filosofi Desain
 
-### 1. Antarmuka Portal Masuk Pengguna (Login)
-![01. Login](screenshots/ss_01_halaman_autentikasi_portal.png)
-
----
-
-### 2. Validasi Keamanan (Error Handling Login Gagal)
-![02. Validasi Gagal](screenshots/ss_02_peringatan_kredensial_invalid.png)
+Edisi Kayla Azzahra mengusung konsep **Sunset Terracotta & Warm Sand**:
+- **Palet Warna**: Terracotta hangat (`#c2410c`, `#7c2d12`), aksen tangerine keemasan, dan latar belakang lembut (`#fff7ed`).
+- **Kartu & Komponen**: Menggunakan gaya kontemporer pill-shaped inputs (`border-radius: 9999px`) dan tombol oval melayang.
+- **Halaman Login**: Menampilkan perisai logo sekolah dengan kontras hangat, tombol preset kredensial berbentuk pil, dan form bertekstur premium.
+- **Header Beranda**: Gradient sunset yang megah dengan identitas sekolah dan avatar pelapor.
 
 ---
 
-### 3. Dashboard Beranda Siswa
-![03. Dashboard Siswa](screenshots/ss_03_feed_dashboard_pelapor_siswa.png)
+## 📸 Dokumentasi Tangkapan Layar Aplikasi
+
+Berikut adalah hasil pengujian langsung sistem Beringin Smart edisi Kayla Azzahra:
+
+| No | Modul / Halaman | Tangkapan Layar |
+| :---: | :--- | :--- |
+| **01** | **Portal Login Siswa & Petugas**<br>Halaman autentikasi hangat dengan logo sekolah SMKN 1 Beringin | ![Login](screenshots/ss_01_portal_login_siswa_petugas.png) |
+| **02** | **Notifikasi Kredensial Salah**<br>Sistem proteksi dan pesan peringatan saat login tidak valid | ![Notifikasi Error](screenshots/ss_02_notifikasi_kredensial_salah.png) |
+| **03** | **Daftar Pengaduan Sarpras Aktif**<br>Feed laporan kerusakan fasilitas dengan kartu beraksen terracotta | ![Feed Sarpras](screenshots/ss_03_daftar_pengaduan_sarpras_aktif.png) |
+| **04** | **Tinjauan Rinci Kerusakan Sarana**<br>Detail informasi lengkap tiket sarana sekolah | ![Detail Sarana](screenshots/ss_04_tinjauan_rinci_kerusakan_sarana.png) |
+| **05** | **Filter Tipe Fasilitas Sekolah**<br>Penyortiran cepat kategori sarana kelas, lab, atau lingkungan | ![Filter Tipe](screenshots/ss_05_filter_tipe_fasilitas_sekolah.png) |
+| **06** | **Form Registrasi Pengaduan**<br>Formulir pelaporan kerusakan dengan input pill rounded khas edisi Kayla | ![Form Registrasi](screenshots/ss_06_form_registrasi_pengaduan.png) |
+| **07** | **Tiket Baru Berhasil Terbit**<br>Verifikasi tiket yang baru dilaporkan langsung terdaftar di sistem | ![Tiket Terbit](screenshots/ss_07_tiket_baru_berhasil_terbit.png) |
+| **08** | **Panel Manajemen Petugas**<br>Dashboard kontrol bagi Pak Danang untuk memantau perbaikan | ![Manajemen Petugas](screenshots/ss_08_panel_manajemen_petugas.png) |
+| **09** | **Eksekusi Penanganan Sarana**<br>Halaman detail penugasan perbaikan sarana oleh petugas | ![Eksekusi Sarana](screenshots/ss_09_eksekusi_penanganan_sarana.png) |
+| **10** | **Verifikasi Laporan Selesai**<br>Pemberitahuan bahwa kerusakan fasilitas telah selesai diperbaiki | ![Laporan Selesai](screenshots/ss_10_verifikasi_laporan_selesai.png) |
+| **11** | **Responsivitas Layar Mobile**<br>Tampilan antarmuka responsif di layar ponsel | ![Mobile View](screenshots/ss_11_responsivitas_layar_mobile.png) |
 
 ---
 
-### 4. Detail Laporan Sarpras (Tampilan Siswa)
-![04. Detail Siswa](screenshots/ss_04_detail_informasi_kerusakan.png)
+## 🚀 Panduan Menjalankan Aplikasi di Lokal
 
----
+### 1. Prasyarat Sistem
+- **Laragon / XAMPP**: Pastikan MySQL berjalan pada port `3306`.
+- **PHP**: Versi 8.2 atau lebih baru.
+- **Node.js**: Versi 18 atau 20 LTS.
 
-### 5. Filter Penyaringan Kategori Sarpras
-![05. Filter Kategori](screenshots/ss_05_filter_kategori_kerusakan.png)
+### 2. Konfigurasi Database
+1. Buka Laragon / MySQL Client, buat database:
+   ```sql
+   CREATE DATABASE beringin_smart_kayla;
+   ```
+2. Pastikan file `.env` pada folder `beringin-backend` memuat:
+   ```env
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=beringin_smart_kayla
+   DB_USERNAME=root
+   DB_PASSWORD=
+   ```
 
----
-
-### 6. Formulir Tambah Pengaduan Kerusakan
-![06. Form Tambah](screenshots/ss_06_formulir_tambah_pengaduan.png)
-
----
-
-### 7. Konfirmasi Tiket Baru Tersimpan
-![07. Tiket Baru](screenshots/ss_07_laporan_baru_terdaftar.png)
-
----
-
-### 8. Dashboard Panel Petugas Sarpras
-![08. Dashboard Petugas](screenshots/ss_08_dashboard_kontrol_petugas.png)
-
----
-
-### 9. Panel Aksi Tindak Lanjut Petugas
-![09. Panel Petugas](screenshots/ss_09_panel_eksekusi_pekerjaan.png)
-
----
-
-### 10. Status Pekerjaan Selesai
-![10. Status Selesai](screenshots/ss_10_status_pekerjaan_tuntas.png)
-
----
-
-### 11. Pengujian Antarmuka Smartphone (Mobile)
-![11. Mobile View](screenshots/ss_11_layout_ponsel_responsive.png)
-
----
-
-## 🚀 Panduan Menjalankan di Komputer Lokal
-
-### 1. Menjalankan Backend API
-```powershell
-cd D:\Kayla\beringin-backend
+### 3. Menjalankan Server Backend
+```bash
+cd beringin-backend
 php artisan serve
 ```
+Backend berjalan di: `http://127.0.0.1:8000`
 
-### 2. Menjalankan Frontend
-```powershell
-cd D:\Kayla\Beringin-Smart
+### 4. Menjalankan Aplikasi Frontend
+```bash
+cd Beringin-Smart
 npm run dev
 ```
-Akses di browser: `http://localhost:5173`
+Frontend berjalan di: `http://127.0.0.1:5173`
+
+### 5. Akun Pengujian
+- **Akun Siswa**: `kayla@beringin.sch.id` | Kata Sandi: `password123`
+- **Akun Petugas**: `petugas@beringin.sch.id` | Kata Sandi: `password123`
+- **Akun Siswa Umum**: `siswa@beringin.sch.id` | Kata Sandi: `password123`
