@@ -13,14 +13,14 @@ class DatabaseSeeder extends Seeder
     {
         // 1. Akun Petugas Sarpras
         $petugas = User::create([
-            'name' => 'Pak Danang (Staf Logistik & Sarpras)',
+            'name' => 'Pak Danang (Teknisi Sarpras)',
             'email' => 'petugas@beringin.sch.id',
             'password' => Hash::make('password123'),
             'role' => 'petugas',
         ]);
 
         // 2. Akun Siswa Utama
-        $siswa_utama = User::create([
+        $siswa = User::create([
             'name' => 'Kayla Azzahra (XI PPLG 1)',
             'email' => 'kayla@beringin.sch.id',
             'password' => Hash::make('password123'),
@@ -28,44 +28,57 @@ class DatabaseSeeder extends Seeder
         ]);
 
         // 3. Akun Siswa Pendukung
-        $siswa_pendukung = User::create([
-            'name' => 'Fajar Ramadhan (XI PPLG 2)',
+        $teman = User::create([
+            'name' => 'Fajar Ramadhan (Siswa XI PPLG 1)',
             'email' => 'siswa@beringin.sch.id',
             'password' => Hash::make('password123'),
             'role' => 'siswa',
         ]);
 
         // 4. Data Awal Laporan Pengaduan Sarpras (Edisi Kayla)
-        
         Laporan::create([
-            'user_id' => $siswa_utama->id,
-            'judul' => 'Kaca Jendela Ruang Praktik RPL Pecah Terhempas Angin',
-            'deskripsi' => 'Kaca jendela sisi barat pecah saat badai angin kemarin siang, pecahan kaca berserakan di kusen.',
-            'lokasi' => 'Ruang Praktik RPL Gedung C',
-            'kategori' => 'Ruang Belajar',
-            'foto' => null,
-            'status' => 'diproses',
+            'user_id' => $siswa->id,
+            'nama' => 'Pintu Lemari Penyimpanan Alat Bengkel Rusak Kuncinya',
+            'lokasi' => 'Ruang Praktik & Bengkel RPL Lt. 1',
+            'kategori' => 'Laboratorium',
+            'deskripsi' => 'Kunci lemari besi penyimpanan peralatan praktikum tang crimping dan tester kabel aus sehingga tidak bisa dikunci rapat.',
+            'status' => 'Sedang Diproses',
         ]);
 
         Laporan::create([
-            'user_id' => $siswa_pendukung->id,
-            'judul' => 'Stopkontak Meja Server Lab Komputer 1 Mati Total',
-            'deskripsi' => 'Jalur daya ke switch rack dan workstation server tidak ada aliran listrik.',
-            'lokasi' => 'Lab Komputer 1 Lt. 1',
-            'kategori' => 'Kelistrikan & Keamanan',
-            'foto' => null,
-            'status' => 'selesai',
+            'user_id' => $teman->id,
+            'nama' => 'Lampu Sorot Lapangan Basket Mati Satu Sisi',
+            'lokasi' => 'Lapangan Upacara & Olahraga Utama',
+            'kategori' => 'Lingkungan/Taman',
+            'deskripsi' => 'Lampu floodlight LED sebelah utara mati, penerangan kurang memadai saat ekskul basket sore hari.',
+            'status' => 'Menunggu',
         ]);
 
         Laporan::create([
-            'user_id' => $siswa_utama->id,
-            'judul' => 'Keran Wastafel Depan Ruang UKS Lepas Ulir',
-            'deskripsi' => 'Keran wastafel tidak bisa diputar kencang dan air terus menetes membasahi lantai teras.',
-            'lokasi' => 'Depan Ruang UKS Gedung B',
-            'kategori' => 'Fasilitas Umum',
-            'foto' => null,
-            'status' => 'menunggu',
+            'user_id' => $siswa->id,
+            'nama' => 'Gagang Pintu Ruang OSIS Longgar dan Sulit Diputar',
+            'lokasi' => 'Gedung Pusat Kegiatan Siswa',
+            'kategori' => 'Lingkungan/Taman',
+            'deskripsi' => 'Handle door lock silinder longgar dan per mekanik di dalamnya tidak kembali ke posisi semula.',
+            'status' => 'Selesai',
         ]);
 
+        Laporan::create([
+            'user_id' => $teman->id,
+            'nama' => 'Saluran Air Talang Hujan Depan Perpustakaan Tumpah',
+            'lokasi' => 'Gedung Perpustakaan Sekolah',
+            'kategori' => 'Lingkungan/Taman',
+            'deskripsi' => 'Pipa talang air tertutup dedaunan kering sehingga air hujan meluber ke selasar depan pintu masuk.',
+            'status' => 'Sedang Diproses',
+        ]);
+
+        Laporan::create([
+            'user_id' => $siswa->id,
+            'nama' => 'Meja Siswa Nomor 12 Goyang dan Baut Kaki Lepas',
+            'lokasi' => 'Ruang Teori XI PPLG 1',
+            'kategori' => 'Fasilitas Kelas',
+            'deskripsi' => 'Kaki meja kayu sisi kanan goyang dan baut penahan rangka besi di bawah meja terlepas satu buah.',
+            'status' => 'Selesai',
+        ]);
     }
 }
