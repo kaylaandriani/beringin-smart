@@ -117,7 +117,7 @@ const Login: React.FC = () => {
               Beringin Smart
             </h1>
             <p style={{ margin: 0, color: '#fed7aa', fontSize: '0.92rem', fontWeight: 500 }}>
-              Portal Pengaduan Sarana & Prasarana • Kayla Azzahra Edition
+              Portal Pengaduan Sarana & Prasarana • SMKN 1 Beringin
             </p>
           </div>
 
@@ -288,7 +288,7 @@ const Login: React.FC = () => {
 
           <div style={{ textAlign: 'center', marginTop: '20px' }}>
             <span style={{ fontSize: '0.78rem', color: '#fed7aa' }}>
-              © 2026-2027 SMK Negeri 1 Beringin • Kayla Azzahra (XI PPLG 1) • SKKNI No. 282/2016
+              © 2026-2027 SMK Negeri 1 Beringin • Kayla Andriani (XI PPLG 1) • SKKNI No. 282/2016
             </span>
           </div>
         </div>

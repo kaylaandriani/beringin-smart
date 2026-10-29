@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
 
         // 2. Akun Siswa Utama
         $siswa = User::create([
-            'name' => 'Kayla Azzahra (XI PPLG 1)',
+            'name' => 'Kayla Andriani (XI PPLG 1)',
             'email' => 'kayla@beringin.sch.id',
             'password' => Hash::make('password123'),
             'role' => 'siswa',
@@ -35,7 +35,7 @@ class DatabaseSeeder extends Seeder
             'role' => 'siswa',
         ]);
 
-        // 4. Data Awal Laporan Pengaduan Sarpras (Edisi Kayla)
+        // 4. Data Awal Laporan Pengaduan Sarpras (Kayla Andriani)
         Laporan::create([
             'user_id' => $siswa->id,
             'nama' => 'Pintu Lemari Penyimpanan Alat Bengkel Rusak Kuncinya',

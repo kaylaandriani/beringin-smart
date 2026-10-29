@@ -1,4 +1,4 @@
-# Beringin Smart 🏫 • Kayla Azzahra Edition
+# Beringin Smart 🏫 — Portal Pengaduan Sarana & Prasarana
 
 <div align="center">
   <img src="Beringin-Smart/public/logo-smkn1beringin.png" alt="Logo SMKN 1 Beringin" width="130" style="margin-bottom: 12px;"/>
@@ -13,7 +13,7 @@
 
 | Atribut | Informasi Terdaftar |
 | :--- | :--- |
-| **Nama Siswa** | **Kayla Azzahra** |
+| **Nama Siswa** | **Kayla Andriani** |
 | **Kelas & Jurusan** | **XI Pengembangan Perangkat Lunak & Gim 1 (XI PPLG 1)** |
 | **Sekolah** | SMK Negeri 1 Beringin, Deli Serdang |
 | **Petugas / Teknisi** | Pak Danang *(Teknisi Sarana & Prasarana)* |
@@ -25,7 +25,7 @@
 
 ## 🎨 Karakteristik & Filosofi Desain
 
-Edisi Kayla Azzahra mengusung konsep **Sunset Terracotta & Warm Sand**:
+Kayla Andriani mengusung konsep **Sunset Terracotta & Warm Sand**:
 - **Palet Warna**: Terracotta hangat (`#c2410c`, `#7c2d12`), aksen tangerine keemasan, dan latar belakang lembut (`#fff7ed`).
 - **Kartu & Komponen**: Menggunakan gaya kontemporer pill-shaped inputs (`border-radius: 9999px`) dan tombol oval melayang.
 - **Halaman Login**: Menampilkan perisai logo sekolah dengan kontras hangat, tombol preset kredensial berbentuk pil, dan form bertekstur premium.
@@ -35,7 +35,7 @@ Edisi Kayla Azzahra mengusung konsep **Sunset Terracotta & Warm Sand**:
 
 ## 📸 Dokumentasi Tangkapan Layar Aplikasi
 
-Berikut adalah hasil pengujian langsung sistem Beringin Smart edisi Kayla Azzahra:
+Berikut adalah hasil pengujian langsung sistem Beringin Smart Kayla Andriani:
 
 | No | Modul / Halaman | Tangkapan Layar |
 | :---: | :--- | :--- |
